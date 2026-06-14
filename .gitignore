@@ -1,0 +1,27 @@
+# Large data/embedding files
+*.npy
+*.bin
+*.jsonl
+*.csv
+*.json
+
+# But keep these specific files
+!data/product_mapping.csv
+!data/audio_ids.json
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
